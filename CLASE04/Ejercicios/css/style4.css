@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+.pagina {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+.sidebar {
+    flex: 0 0 240px;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 16px;
+}
+.contenido {
+    flex: 1;
+=======
+.pagina {
+    display: flex;
+    gap: 24px;
+    padding: 24px;
+}
+.sidebar {
+    flex: 0 0 240px;
+    background-color: aqua;
+    border-radius: 8px;
+    padding: 16px;
+}
+.contenido {
+    flex: 1;
+>>>>>>> 9a1fecdf034fd9f852c6f805328f6a0bc5141a7a
+}

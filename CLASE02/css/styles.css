@@ -1,0 +1,312 @@
+<<<<<<< HEAD
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: #000;
+    background-color: #EFECE6;
+}
+header{
+    padding: 15px 30px;
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+}
+nav{
+    float: right;
+}
+nav a{
+    border-radius: 15px;
+    margin-left: 25px;
+    line-height: 40px;
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: #bdb9b9;
+}
+.contenedor-articulo-destacado{
+    border: 2px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.contenedor-articulo-destacado .titulo{
+    float: center;
+}
+.contenedor-articulo-destacado .titulo h1{
+    font-size: 45px;
+}
+.contenedor-articulo-destacado .titulo p{
+    font-size: 20px;
+}
+.contenedor-articulo-destacado .img1{
+    float: left;
+    margin: 15px;
+}
+
+.contenedor-articulo-destacado .img1 img{
+
+    border-radius: 15px;
+    width: 100%;
+}
+.contenedor-articulo-destacado .titulo button{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 15%;
+    background-color: #EFECE6;
+    cursor: pointer;
+}
+.contenedor-articulo-destacado .titulo button:hover{
+    background-color: #d9d8d8;
+}
+.contenedor-articulo-destacado .titulo p{
+    margin-right: 20px;
+}
+
+.titulo-ultimos-articulos{
+    width: 90%;
+    margin: 15px auto;
+}
+.contenedor-de-las-tarjetas{
+    overflow: hidden;
+    width: 90%;
+    margin: 15px auto;
+
+}
+.ultimos-articulos{
+    float: left;
+    width: 70%;
+}
+.articulo{
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 5px;
+    float: left;
+    width: 48%;
+    overflow: hidden;
+}
+.articulo .img{
+    float: center;
+    margin: 10px;
+}
+.articulo .img img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+.articulo .titulo-tarjetas{
+    text-align: center;
+}
+
+.barra-lateral{
+    border: 2px solid #000;
+    border-radius: 20px;
+    float: right;
+    width: 25%;
+    padding: 15px;
+}
+.barra-lateral .barra-buscar{
+    border-bottom: 2px solid #000;
+    margin: 15px;
+}
+.barra-lateral .barra-buscar label{
+    font-size: 25px;
+    font-weight: bold;
+}
+.barra-lateral .barra-buscar input{
+    display: block;
+    margin-top: 15px;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #EFECE6;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.barra-lateral .barra-buscar input:hover{
+    background-color: #d9d8d8 ;
+}
+.barra-lateral .check input{
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+.barra-lateral .contenedor-categorias{
+    border-bottom: 2px solid #000;
+}
+.img-sobre-mi img{
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+
+footer{
+    clear: both;
+    text-align: center;
+    border-top: 2px solid #000;
+=======
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: #000;
+    background-color: #EFECE6;
+}
+header{
+    padding: 15px 30px;
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+}
+nav{
+    float: right;
+}
+nav a{
+    border-radius: 15px;
+    margin-left: 25px;
+    line-height: 40px;
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: #bdb9b9;
+}
+.contenedor-articulo-destacado{
+    border: 2px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.contenedor-articulo-destacado .titulo{
+    float: center;
+}
+.contenedor-articulo-destacado .titulo h1{
+    font-size: 45px;
+}
+.contenedor-articulo-destacado .titulo p{
+    font-size: 20px;
+}
+.contenedor-articulo-destacado .img1{
+    float: left;
+    margin: 15px;
+}
+
+.contenedor-articulo-destacado .img1 img{
+
+    border-radius: 15px;
+    width: 100%;
+}
+.contenedor-articulo-destacado .titulo button{
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 15%;
+    background-color: #EFECE6;
+    cursor: pointer;
+}
+.contenedor-articulo-destacado .titulo button:hover{
+    background-color: #d9d8d8;
+}
+.contenedor-articulo-destacado .titulo p{
+    margin-right: 20px;
+}
+
+.titulo-ultimos-articulos{
+    width: 90%;
+    margin: 15px auto;
+}
+.contenedor-de-las-tarjetas{
+    overflow: hidden;
+    width: 90%;
+    margin: 15px auto;
+
+}
+.ultimos-articulos{
+    float: left;
+    width: 70%;
+}
+.articulo{
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin: 5px;
+    float: left;
+    width: 48%;
+    overflow: hidden;
+}
+.articulo .img{
+    float: center;
+    margin: 10px;
+}
+.articulo .img img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+.articulo .titulo-tarjetas{
+    text-align: center;
+}
+
+.barra-lateral{
+    border: 2px solid #000;
+    border-radius: 20px;
+    float: right;
+    width: 25%;
+    padding: 15px;
+}
+.barra-lateral .barra-buscar{
+    border-bottom: 2px solid #000;
+    margin: 15px;
+}
+.barra-lateral .barra-buscar label{
+    font-size: 25px;
+    font-weight: bold;
+}
+.barra-lateral .barra-buscar input{
+    display: block;
+    margin-top: 15px;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #EFECE6;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.barra-lateral .barra-buscar input:hover{
+    background-color: #d9d8d8 ;
+}
+.barra-lateral .check input{
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+.barra-lateral .contenedor-categorias{
+    border-bottom: 2px solid #000;
+}
+.img-sobre-mi img{
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+
+footer{
+    clear: both;
+    text-align: center;
+    border-top: 2px solid #000;
+>>>>>>> 9a1fecdf034fd9f852c6f805328f6a0bc5141a7a
+}

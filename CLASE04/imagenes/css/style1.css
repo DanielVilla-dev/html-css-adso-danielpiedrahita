@@ -1,0 +1,307 @@
+<<<<<<< HEAD
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 10px;
+    display: flex;
+    background-color: #263238;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: #368875;
+    border-radius: 8px;
+}
+main{
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+    background-color: #ecf7f5;
+
+}
+.boton-suscribete button{
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #368875;
+    color: white;
+    cursor: pointer;
+}
+.boton-suscribete button:hover{
+    background-color: #23584c;
+}
+.tarjeta-principal{
+    flex: 1;
+    align-items: center;
+    margin: 20px;
+}
+.tarjeta-principal span{
+    background-color: #a4ebda;
+    color: #23584c;
+    padding: 8px;
+    border-radius: 20px;
+}
+.tarjeta-principal h1{
+    font-size: 50px;
+}
+.tarjeta-principal p {
+    color: #263238;
+}
+.tarjeta-principal button{
+    padding: 8px;
+    color: white;
+    background-color: #368875;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tarjeta-principal button:hover{
+    background-color:#23584c;
+}
+.imagen-principal{
+    display: flex;
+    flex: 1;
+    height: 50vh;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,#368875, #23584b);
+    margin: 20px;
+}
+.imagen-principal img{
+    width: 100px;
+    height: 100px;
+}
+.contenedor-botones{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.contenedor-botones button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.contenedor-botones button:hover{
+    transform: translate(-4px);
+    background-color: #368875;
+}
+.ultimos-articulos{
+    margin: 20px;
+}
+.contenedor-tarjetas{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 18px;
+}
+.tarjeta{
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.tarjeta:hover{
+    transform: translate(-4px);
+}
+.imagen-tarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: linear-gradient(to left,#126753, #41bda0);
+}
+.tarjeta img{
+    width: 80px;
+    height: 80px;
+}
+.texto-tarjetas{
+    padding: 18px;
+}
+.texto-tarjetas span{
+    background-color: #a4ebda;
+    color: #23584c;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    clear: both;
+    background-color: #263238;
+    color: white;
+}
+.logo{
+    padding-left: 20px;
+}
+.siguenos{
+    padding-right: 20px;
+=======
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 10px;
+    display: flex;
+    background-color: #263238;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: #368875;
+    border-radius: 8px;
+}
+main{
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+    background-color: #ecf7f5;
+
+}
+.boton-suscribete button{
+    width: 150px;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #368875;
+    color: white;
+    cursor: pointer;
+}
+.boton-suscribete button:hover{
+    background-color: #23584c;
+}
+.tarjeta-principal{
+    flex: 1;
+    align-items: center;
+    margin: 20px;
+}
+.tarjeta-principal span{
+    background-color: #a4ebda;
+    color: #23584c;
+    padding: 8px;
+    border-radius: 20px;
+}
+.tarjeta-principal h1{
+    font-size: 50px;
+}
+.tarjeta-principal p {
+    color: #263238;
+}
+.tarjeta-principal button{
+    padding: 8px;
+    color: white;
+    background-color: #368875;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tarjeta-principal button:hover{
+    background-color:#23584c;
+}
+.imagen-principal{
+    display: flex;
+    flex: 1;
+    height: 50vh;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,#368875, #23584b);
+    margin: 20px;
+}
+.imagen-principal img{
+    width: 100px;
+    height: 100px;
+}
+.contenedor-botones{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.contenedor-botones button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.contenedor-botones button:hover{
+    transform: translate(-4px);
+    background-color: #368875;
+}
+.contenedor-tarjetas{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 18px;
+}
+.tarjeta{
+    border: 1px solid #c9c9c9;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.tarjeta:hover{
+    transform: translate(-4px);
+}
+.imagen-tarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background: linear-gradient(to left,#126753, #41bda0);
+}
+.tarjeta img{
+    width: 80px;
+    height: 80px;
+}
+.texto-tarjetas{
+    padding: 18px;
+}
+.texto-tarjetas span{
+    background-color: #a4ebda;
+    color: #23584c;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    clear: both;
+    background-color: #263238;
+    color: white;
+>>>>>>> 9a1fecdf034fd9f852c6f805328f6a0bc5141a7a
+}

@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+.fila {
+    display: flex;
+    gap: 16px;
+    padding: 24px;
+}
+
+.tarjeta {
+    flex: 1;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 16px;
+}
+.tarjeta h2 {
+    margin-top: 0;
+=======
+.fila {
+    display: flex;
+    gap: 16px;
+    padding: 24px;
+}
+
+.tarjeta {
+    flex: 1;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 16px;
+}
+.tarjeta h2 {
+    margin-top: 0;
+>>>>>>> 9a1fecdf034fd9f852c6f805328f6a0bc5141a7a
+}

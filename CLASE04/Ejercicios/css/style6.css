@@ -1,0 +1,74 @@
+<<<<<<< HEAD
+body{
+    margin: 0;
+    padding: 0;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "cabecera cabecera"
+        "menu   principal"
+        "pie    pie";
+    min-height: 100vh;
+    gap: 0;
+}
+header {
+    grid-area: cabecera;
+    background-color: aqua;
+    color: #000;
+    padding: 16px;
+}
+nav {
+    grid-area: menu;
+    background-color: aqua;
+    padding: 19px;
+}
+main {
+    grid-area: principal;
+    padding: 24px;
+}
+footer {
+    grid-area: pie;
+    background-color: aqua;
+    color: #000;
+    padding: 12px;
+=======
+body{
+    margin: 0;
+    padding: 0;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "cabecera cabecera"
+        "menu   principal"
+        "pie    pie";
+    min-height: 100vh;
+    gap: 0;
+}
+header {
+    grid-area: cabecera;
+    background-color: aqua;
+    color: #000;
+    padding: 16px;
+}
+nav {
+    grid-area: menu;
+    background-color: aqua;
+    padding: 19px;
+}
+main {
+    grid-area: principal;
+    padding: 24px;
+}
+footer {
+    grid-area: pie;
+    background-color: aqua;
+    color: #000;
+    padding: 12px;
+>>>>>>> 9a1fecdf034fd9f852c6f805328f6a0bc5141a7a
+}
