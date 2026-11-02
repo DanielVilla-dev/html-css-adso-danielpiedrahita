@@ -43,6 +43,20 @@ main {
 main p{
     color: #263238;
 }
+.barra-lugar{
+    display: flex;
+    gap: 3px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #368875;
+}
+.barra-lugar a{
+    color: #263238;
+    text-decoration: none;
+}
+.barra-lugar a:hover{
+    text-decoration: underline;
+}
 .reciclaje{
     background-color: #a4ebda;
     color: #23584c;
